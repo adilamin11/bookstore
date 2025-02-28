@@ -9,9 +9,9 @@ const Favourite = require("./routes/favourite");
 const Cart= require("./routes/cart");
 const Order = require("./routes/order");
 //
-// app.get("/",(req,res)=>{
-//     res.send("helloe adil")
-// })
+app.get("/",(req,res)=>{
+    res.send("helloe adil")
+})
 app.use(cors())
 app.use(express.json());
 //routes
